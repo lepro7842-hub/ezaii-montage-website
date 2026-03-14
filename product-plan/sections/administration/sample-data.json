@@ -1,0 +1,114 @@
+{
+  "_meta": {
+    "models": {
+      "videos": "Chaque vidéo représente un montage réalisé par Ezaii pour un client YouTubeur. Peut être une vidéo longue ou un short.",
+      "testimonials": "Chaque témoignage est un avis laissé par un client satisfait, avec son nom et sa chaîne YouTube."
+    },
+    "relationships": [
+      "Un Testimonial peut optionnellement référencer un Video (pour lier l'avis à une réalisation spécifique)"
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid-001",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "title": "Mon Setup Gaming 2024 - Le Guide Ultime",
+      "clientName": "TechVibe",
+      "description": "Vidéo complète sur l'évolution du setup gaming avec transitions dynamiques et effets visuels.",
+      "type": "long",
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "vid-002",
+      "youtubeUrl": "https://www.youtube.com/watch?v=abc123xyz",
+      "title": "J'ai testé le mass gainer pendant 30 jours",
+      "clientName": "FitnessBroz",
+      "description": "Transformation physique documentée avec montage before/after et motion graphics.",
+      "type": "long",
+      "createdAt": "2024-02-08"
+    },
+    {
+      "id": "vid-003",
+      "youtubeUrl": "https://www.youtube.com/shorts/xyz789",
+      "title": "Cette astuce Photoshop va te choquer",
+      "clientName": "DesignMaster",
+      "description": "Short viral avec hook percutant et rythme rapide.",
+      "type": "short",
+      "createdAt": "2024-02-20"
+    },
+    {
+      "id": "vid-004",
+      "youtubeUrl": "https://www.youtube.com/watch?v=def456ghi",
+      "title": "24h dans la vie d'un étudiant en médecine",
+      "clientName": "MedLife",
+      "description": "Vlog immersif avec color grading cinématique et musique émotionnelle.",
+      "type": "long",
+      "createdAt": "2024-03-05"
+    },
+    {
+      "id": "vid-005",
+      "youtubeUrl": "https://www.youtube.com/shorts/short456",
+      "title": "POV: Tu découvres ce son",
+      "clientName": "music.wav",
+      "description": "Short musical avec sync parfait et effets de texte animés.",
+      "type": "short",
+      "createdAt": "2024-03-12"
+    },
+    {
+      "id": "vid-006",
+      "youtubeUrl": "https://www.youtube.com/watch?v=jkl789mno",
+      "title": "Le Secret des Meilleurs Thumbnails YouTube",
+      "clientName": "GrowthHacker",
+      "description": "Tutoriel approfondi avec screen recordings, annotations et chapitres.",
+      "type": "long",
+      "createdAt": "2024-03-28"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-001",
+      "clientName": "Lucas",
+      "channelName": "TechVibe",
+      "avatarUrl": "https://i.pravatar.cc/150?u=techvibe",
+      "quote": "Ezaii a complètement transformé mes vidéos. Le montage est propre, dynamique, et mes viewers adorent le nouveau style. Je recommande à 100% !",
+      "videoId": "vid-001",
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": "test-002",
+      "clientName": "Mehdi",
+      "channelName": "FitnessBroz",
+      "avatarUrl": "https://i.pravatar.cc/150?u=fitnessbro",
+      "quote": "Réactif, créatif, et toujours à l'écoute. Mes vidéos fitness n'ont jamais été aussi engageantes. Le meilleur investissement pour ma chaîne.",
+      "videoId": "vid-002",
+      "createdAt": "2024-02-15"
+    },
+    {
+      "id": "test-003",
+      "clientName": "Sarah",
+      "channelName": "DesignMaster",
+      "avatarUrl": null,
+      "quote": "Mes shorts cartonnent depuis que je bosse avec Ezaii. Il comprend parfaitement les codes de YouTube et sait capter l'attention dès la première seconde.",
+      "videoId": "vid-003",
+      "createdAt": "2024-03-01"
+    },
+    {
+      "id": "test-004",
+      "clientName": "Antoine",
+      "channelName": "MedLife",
+      "avatarUrl": "https://i.pravatar.cc/150?u=medlife",
+      "quote": "Je n'ai plus le temps de monter avec mes études. Ezaii me livre des vidéos de qualité pro en quelques jours. Un vrai game-changer pour concilier YouTube et médecine.",
+      "videoId": null,
+      "createdAt": "2024-03-10"
+    },
+    {
+      "id": "test-005",
+      "clientName": "Emma",
+      "channelName": "GrowthHacker",
+      "avatarUrl": "https://i.pravatar.cc/150?u=growthhacker",
+      "quote": "Qualité irréprochable et prix très compétitif. Ezaii est devenu un partenaire indispensable pour ma chaîne.",
+      "videoId": "vid-006",
+      "createdAt": "2024-04-02"
+    }
+  ]
+}

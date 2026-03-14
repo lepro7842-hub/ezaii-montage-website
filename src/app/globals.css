@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+:root {
+  --background: #020617;
+  --foreground: #f1f5f9;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Contact card ripple animations */
+@keyframes ripple-1 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.15);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple-2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+@keyframes ripple-3 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-ripple-1 {
+  animation: ripple-1 3s ease-out infinite;
+}
+
+.animate-ripple-2 {
+  animation: ripple-2 3s ease-out infinite 0.8s;
+}
+
+.animate-ripple-3 {
+  animation: ripple-3 3s ease-out infinite 1.6s;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* Typewriter cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 0.7s step-end infinite;
+}
+
+/* Growth icon glow on video cards */
+@keyframes growth-glow {
+  0%, 100% {
+    color: rgba(34, 197, 94, 0.5);
+    filter: drop-shadow(0 0 2px rgba(34, 197, 94, 0));
+  }
+  50% {
+    color: rgba(34, 197, 94, 1);
+    filter: drop-shadow(0 0 6px rgba(34, 197, 94, 0.5));
+  }
+}
+
+.animate-growth-glow {
+  animation: growth-glow 2.5s ease-in-out infinite;
+}
+
+/* Hero EZAII subtle floating */
+@keyframes hero-float {
+  0%, 100% {
+    transform: translateY(0) scaleX(1) scaleY(1);
+  }
+  25% {
+    transform: translateY(-3px) scaleX(1.005) scaleY(0.995);
+  }
+  50% {
+    transform: translateY(1px) scaleX(0.995) scaleY(1.005);
+  }
+  75% {
+    transform: translateY(-2px) scaleX(1.003) scaleY(0.997);
+  }
+}
+
+.animate-hero-float {
+  animation: hero-float ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+/* Ocean bubbles rising */
+@keyframes bubble {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50vh) translateX(15px) scale(1.1);
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-105vh) translateX(-10px) scale(0.6);
+    opacity: 0;
+  }
+}
+
+.animate-bubble {
+  animation: bubble linear infinite;
+}
+
+/* Subtle wave shimmer line */
+@keyframes wave-line {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-wave-line {
+  animation: wave-line 6s linear infinite;
+}
+
+/* Portfolio scan line effect */
+@keyframes scan-line {
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 110%;
+    opacity: 0;
+  }
+}
+
+.animate-scan-line {
+  animation: scan-line 3s ease-in-out infinite;
+}
+
+/* Slow spin for avatar ring */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Portfolio clip-path frames — desktop only */
+@media (min-width: 1024px) {
+  .video-clip-frame,
+  .video-clip-border,
+  .video-clip-inner {
+    clip-path: polygon(0% 0%, 97% 0%, 100% 5%, 100% 100%, 3% 100%, 0% 95%);
+  }
+}

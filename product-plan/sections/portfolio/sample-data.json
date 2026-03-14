@@ -1,0 +1,139 @@
+{
+  "_meta": {
+    "models": {
+      "videos": "Une vidéo longue du portfolio d'Ezaii. Contient le titre, le client, les stats YouTube, et un éventuel témoignage.",
+      "shorts": "Un short YouTube du portfolio. Affiché directement en embed dans le carousel."
+    },
+    "relationships": [
+      "Chaque Video peut avoir un Testimonial optionnel (l'avis du client sur cette réalisation)",
+      "Les Shorts sont indépendants et n'ont pas de témoignages associés"
+    ]
+  },
+  "videos": [
+    {
+      "id": "vid-001",
+      "title": "J'ai survécu 100 jours dans Minecraft Hardcore",
+      "clientName": "GameZone",
+      "clientChannel": "@GameZoneFR",
+      "youtubeId": "dQw4w9WgXcQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "views": 1250000,
+      "likes": 89000,
+      "testimonial": {
+        "text": "Ezaii a complètement transformé ma vidéo. Le montage dynamique et les effets ont fait exploser ma rétention. Je recommande à 100% !",
+        "avatarUrl": "https://yt3.googleusercontent.com/ytc/placeholder1.jpg"
+      }
+    },
+    {
+      "id": "vid-002",
+      "title": "Ce restaurant m'a servi le pire plat de ma vie",
+      "clientName": "FoodCritic",
+      "clientChannel": "@FoodCriticFR",
+      "youtubeId": "abc123def",
+      "thumbnailUrl": "https://i.ytimg.com/vi/abc123def/maxresdefault.jpg",
+      "views": 856000,
+      "likes": 52000,
+      "testimonial": {
+        "text": "Le timing des cuts est parfait, ça garde les viewers accrochés du début à la fin. Ezaii comprend vraiment le format YouTube.",
+        "avatarUrl": "https://yt3.googleusercontent.com/ytc/placeholder2.jpg"
+      }
+    },
+    {
+      "id": "vid-003",
+      "title": "24h dans le métro parisien (ça tourne mal)",
+      "clientName": "UrbanExplorer",
+      "clientChannel": "@UrbanExplorerTV",
+      "youtubeId": "xyz789ghi",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyz789ghi/maxresdefault.jpg",
+      "views": 2100000,
+      "likes": 145000,
+      "testimonial": null
+    },
+    {
+      "id": "vid-004",
+      "title": "J'ai testé les pires life hacks de TikTok",
+      "clientName": "TesteurFou",
+      "clientChannel": "@TesteurFou",
+      "youtubeId": "test456abc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/test456abc/maxresdefault.jpg",
+      "views": 678000,
+      "likes": 41000,
+      "testimonial": {
+        "text": "Rapide, pro, et le résultat dépasse mes attentes. Les transitions sont incroyables !",
+        "avatarUrl": null
+      }
+    },
+    {
+      "id": "vid-005",
+      "title": "On a construit une maison avec 0€",
+      "clientName": "DIYMaster",
+      "clientChannel": "@DIYMasterFR",
+      "youtubeId": "diy789xyz",
+      "thumbnailUrl": "https://i.ytimg.com/vi/diy789xyz/maxresdefault.jpg",
+      "views": 3450000,
+      "likes": 234000,
+      "testimonial": {
+        "text": "Ma vidéo la plus vue ! Le montage d'Ezaii y est pour beaucoup. Les viewers adorent le rythme et les effets sonores.",
+        "avatarUrl": "https://yt3.googleusercontent.com/ytc/placeholder5.jpg"
+      }
+    },
+    {
+      "id": "vid-006",
+      "title": "Je réponds à vos questions les plus gênantes",
+      "clientName": "ConfessionTime",
+      "clientChannel": "@ConfessionTimeFR",
+      "youtubeId": "conf123qna",
+      "thumbnailUrl": "https://i.ytimg.com/vi/conf123qna/maxresdefault.jpg",
+      "views": 445000,
+      "likes": 38000,
+      "testimonial": null
+    }
+  ],
+  "shorts": [
+    {
+      "id": "short-001",
+      "title": "Cette astuce va changer ta vie 🤯",
+      "clientName": "TesteurFou",
+      "clientChannel": "@TesteurFou",
+      "youtubeId": "short_abc123",
+      "views": 2800000,
+      "likes": 180000
+    },
+    {
+      "id": "short-002",
+      "title": "POV: Tu découvres ce resto caché",
+      "clientName": "FoodCritic",
+      "clientChannel": "@FoodCriticFR",
+      "youtubeId": "short_def456",
+      "views": 1500000,
+      "likes": 95000
+    },
+    {
+      "id": "short-003",
+      "title": "Le moment où tout a basculé...",
+      "clientName": "GameZone",
+      "clientChannel": "@GameZoneFR",
+      "youtubeId": "short_ghi789",
+      "views": 980000,
+      "likes": 72000
+    },
+    {
+      "id": "short-004",
+      "title": "J'ai trouvé ça dans ma cave 😱",
+      "clientName": "UrbanExplorer",
+      "clientChannel": "@UrbanExplorerTV",
+      "youtubeId": "short_jkl012",
+      "views": 4200000,
+      "likes": 310000
+    },
+    {
+      "id": "short-005",
+      "title": "DIY en 30 secondes chrono",
+      "clientName": "DIYMaster",
+      "clientChannel": "@DIYMasterFR",
+      "youtubeId": "short_mno345",
+      "views": 1100000,
+      "likes": 88000
+    }
+  ]
+}

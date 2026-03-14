@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "models": {
+      "heroContent": "Le contenu textuel du Hero — le nom de la marque, la tagline, et le bouton d'appel à l'action.",
+      "assets": "Les fichiers média utilisés par le Hero — la vidéo de plongée océanique et l'animation Lottie du banc de poissons.",
+      "animationConfig": "La configuration des animations — timings de révélation et couleur du glow bioluminescent."
+    },
+    "relationships": [
+      "Le Hero utilise les assets (vidéo et Lottie) comme éléments visuels de fond",
+      "Le contenu textuel apparaît après la fin de la vidéo avec les timings définis dans animationConfig"
+    ]
+  },
+  "heroContent": {
+    "brandName": "ezaii",
+    "tagline": "Le montage qui fait la différence",
+    "ctaText": "Parcourir mes réalisations",
+    "ctaTarget": "#portfolio"
+  },
+  "assets": {
+    "videoSrc": "/assets/ocean.mp4",
+    "fishLottieSrc": "/assets/shoal of fish.lottie",
+    "backgroundColor": "#000833"
+  },
+  "animationConfig": {
+    "letterRevealDelay": 150,
+    "taglineDelay": 800,
+    "ctaDelay": 1200,
+    "glowColor": "#00D4FF"
+  }
+}

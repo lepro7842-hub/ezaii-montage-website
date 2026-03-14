@@ -1,0 +1,15 @@
+{
+  "_meta": {
+    "models": {
+      "contactInfo": "Les informations de contact d'Ezaii avec le message d'accroche affiché dans la section."
+    },
+    "relationships": []
+  },
+  "contactInfo": {
+    "headline": "Prêt à donner vie à tes vidéos ?",
+    "subheadline": "Discutons de ton projet et créons ensemble du contenu qui claque.",
+    "email": "hello@ezaii-montage.com",
+    "discordUrl": "https://discord.com/users/eliott4943",
+    "discordLabel": "eliott4943"
+  }
+}

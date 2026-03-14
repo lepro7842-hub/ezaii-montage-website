@@ -1,0 +1,47 @@
+{
+  "_meta": {
+    "models": {
+      "testimonials": "Chaque témoignage représente l'avis d'un YouTubeur client ayant travaillé avec Ezaii pour le montage de ses vidéos."
+    },
+    "relationships": [
+      "Les témoignages sont indépendants mais peuvent mentionner le type de vidéo monté (long format ou short)"
+    ]
+  },
+  "testimonials": [
+    {
+      "id": "testi-001",
+      "clientName": "Lucas",
+      "channelName": "LucasMusic",
+      "channelUrl": "https://www.youtube.com/@lucasmusic",
+      "text": "Ezaii a transformé mes vlogs musicaux en véritables clips ! Le montage dynamique colle parfaitement à l'énergie de mes morceaux. Je recommande à 100%."
+    },
+    {
+      "id": "testi-002",
+      "clientName": "Sarah",
+      "channelName": "Sarah's Kitchen",
+      "channelUrl": "https://www.youtube.com/@saraskitchen",
+      "text": "Rapide, pro, et toujours à l'écoute. Mes vidéos recettes ont gagné en qualité depuis que je travaille avec Ezaii. Les transitions sont fluides et le rythme est parfait pour garder l'attention des viewers."
+    },
+    {
+      "id": "testi-003",
+      "clientName": "Théo",
+      "channelName": "ThéoGamez",
+      "channelUrl": "https://www.youtube.com/@theogamez",
+      "text": "Top pour les shorts ! Montage ultra réactif, il capte exactement les moments forts de mes streams. En plus le prix est imbattable."
+    },
+    {
+      "id": "testi-004",
+      "clientName": "Marine",
+      "channelName": "Marine Voyage",
+      "channelUrl": "https://www.youtube.com/@marinevoyage",
+      "text": "Je confie tous mes vlogs voyage à Ezaii depuis 6 mois maintenant. La qualité est constante, les délais toujours respectés, et il comprend vraiment l'ambiance que je veux donner à ma chaîne. Un vrai partenaire créatif !"
+    },
+    {
+      "id": "testi-005",
+      "clientName": "Maxime",
+      "channelName": "Max Tech",
+      "channelUrl": "https://www.youtube.com/@maxtech",
+      "text": "Excellent travail sur mes reviews tech. Ezaii sait mettre en valeur les produits avec des plans de coupe bien choisis."
+    }
+  ]
+}

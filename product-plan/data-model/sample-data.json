@@ -1,0 +1,133 @@
+{
+  "videos": [
+    {
+      "id": "vid-001",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "title": "Mon Setup Gaming 2024 - Le Guide Ultime",
+      "clientName": "TechVibe",
+      "clientChannel": "@TechVibe",
+      "description": "Vidéo complète sur l'évolution du setup gaming avec transitions dynamiques et effets visuels.",
+      "type": "long",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "views": 1250000,
+      "likes": 89000,
+      "createdAt": "2024-01-15"
+    },
+    {
+      "id": "vid-002",
+      "youtubeUrl": "https://www.youtube.com/watch?v=abc123xyz",
+      "title": "J'ai testé le mass gainer pendant 30 jours",
+      "clientName": "FitnessBroz",
+      "clientChannel": "@FitnessBroz",
+      "description": "Transformation physique documentée avec montage before/after et motion graphics.",
+      "type": "long",
+      "thumbnailUrl": "https://i.ytimg.com/vi/abc123xyz/maxresdefault.jpg",
+      "views": 856000,
+      "likes": 52000,
+      "createdAt": "2024-02-08"
+    },
+    {
+      "id": "vid-003",
+      "youtubeUrl": "https://www.youtube.com/shorts/xyz789",
+      "title": "Cette astuce Photoshop va te choquer",
+      "clientName": "DesignMaster",
+      "clientChannel": "@DesignMaster",
+      "description": "Short viral avec hook percutant et rythme rapide.",
+      "type": "short",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xyz789/maxresdefault.jpg",
+      "views": 2800000,
+      "likes": 180000,
+      "createdAt": "2024-02-20"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testi-001",
+      "clientName": "Lucas",
+      "channelName": "LucasMusic",
+      "channelUrl": "https://www.youtube.com/@lucasmusic",
+      "avatarUrl": null,
+      "text": "Ezaii a transformé mes vlogs musicaux en véritables clips ! Le montage dynamique colle parfaitement à l'énergie de mes morceaux. Je recommande à 100%.",
+      "videoId": null,
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": "testi-002",
+      "clientName": "Sarah",
+      "channelName": "Sarah's Kitchen",
+      "channelUrl": "https://www.youtube.com/@saraskitchen",
+      "avatarUrl": null,
+      "text": "Rapide, pro, et toujours à l'écoute. Mes vidéos recettes ont gagné en qualité depuis que je travaille avec Ezaii.",
+      "videoId": null,
+      "createdAt": "2024-02-15"
+    }
+  ],
+  "pricingTiers": [
+    {
+      "id": "tier-001",
+      "name": "1 vidéo",
+      "category": "longForm",
+      "price": 128,
+      "currency": "€",
+      "features": [
+        "Montage complet de ta vidéo",
+        "Jusqu'à 40 min de rush",
+        "Corrections incluses",
+        "Livraison sous 5 jours"
+      ]
+    },
+    {
+      "id": "tier-002",
+      "name": "Pack 2 vidéos",
+      "category": "longForm",
+      "price": 240,
+      "currency": "€",
+      "features": [
+        "2 montages complets",
+        "Jusqu'à 40 min de rush par vidéo",
+        "Corrections incluses",
+        "Livraison sous 7 jours",
+        "Économise 16€"
+      ]
+    },
+    {
+      "id": "tier-003",
+      "name": "Pack 3 vidéos",
+      "category": "longForm",
+      "price": 345,
+      "currency": "€",
+      "features": [
+        "3 montages complets",
+        "Jusqu'à 40 min de rush par vidéo",
+        "Corrections incluses",
+        "Livraison sous 10 jours",
+        "Économise 39€"
+      ]
+    },
+    {
+      "id": "tier-004",
+      "name": "Short",
+      "category": "short",
+      "price": 15,
+      "currency": "€",
+      "features": [
+        "Montage format vertical",
+        "Optimisé YouTube Shorts / TikTok",
+        "Livraison sous 48h"
+      ]
+    }
+  ],
+  "contactInfo": {
+    "headline": "Prêt à donner vie à tes vidéos ?",
+    "subheadline": "Discutons de ton projet et créons ensemble du contenu qui claque.",
+    "email": "hello@ezaii-montage.com",
+    "discordUrl": "https://discord.com/users/eliott4943",
+    "discordLabel": "eliott4943"
+  },
+  "conditions": [
+    "Paiement à la livraison via PayPal ou virement",
+    "Rush supplémentaire : +20€ par tranche de 20 min",
+    "Délais indicatifs, peuvent varier selon la charge"
+  ],
+  "discordLink": "https://discord.gg/ezaii"
+}
