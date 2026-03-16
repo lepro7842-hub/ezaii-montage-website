@@ -6,7 +6,7 @@ import { PortfolioSection } from '@/components/sections/portfolio/PortfolioSecti
 import { TarifsSection } from '@/components/sections/tarifs/TarifsSection'
 import { TemoignagesSection } from '@/components/sections/temoignages/TemoignagesSection'
 import { Contact } from '@/components/sections/contact/Contact'
-import { AdminGate } from '@/components/ui/AdminGate'
+
 import { SectionDivider } from '@/components/ui/SectionDivider'
 
 const navigationItems = [
@@ -103,7 +103,6 @@ export default function HomePage() {
       </section>
 
       </div>
-      <AdminGate />
       {/* Bottom blur veil – progressive fade with raised edges */}
       <div
         className="fixed bottom-0 left-0 right-0 h-44 z-50 pointer-events-none"
