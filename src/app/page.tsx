@@ -41,7 +41,7 @@ const pricingTiers = [
   { id: 'tier-001', name: '1 vidéo', category: 'longForm' as const, price: 128, currency: '€', features: ['Montage complet de ta vidéo', "Jusqu'à 40 min de rush", 'Corrections incluses', 'Livraison sous 5 jours'] },
   { id: 'tier-002', name: 'Pack 2 vidéos', category: 'longForm' as const, price: 240, currency: '€', features: ['2 montages complets', "Jusqu'à 40 min de rush par vidéo", 'Corrections incluses', 'Livraison sous 7 jours', 'Économise 16€'] },
   { id: 'tier-003', name: 'Pack 3 vidéos', category: 'longForm' as const, price: 345, currency: '€', features: ['3 montages complets', "Jusqu'à 40 min de rush par vidéo", 'Corrections incluses', 'Livraison sous 10 jours', 'Économise 39€'] },
-  { id: 'tier-004', name: 'Montage Vidéo-Short', category: 'short' as const, price: 15, currency: '€', features: ['Format vertical ou horizontale', 'Réponse sous 48h', 'Montage dynamique & captivant'] },
+  { id: 'tier-004', name: 'Montage Vidéo-Short', category: 'short' as const, price: 15, currency: '€', features: ['Format vertical ou horizontal', 'Réponse sous 48h', 'Montage dynamique & captivant'] },
 ]
 
 const conditions = [

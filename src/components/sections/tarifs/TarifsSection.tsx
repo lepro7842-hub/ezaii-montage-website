@@ -35,7 +35,7 @@ export function TarifsSection({ pricingTiers, discordLink }: TarifsSectionProps)
           </h2>
           <FadeIn>
             <p className="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto">
-              Reçois un Devis adaptée à tes besoins réels en MP
+              Reçois un Devis adapté à tes besoins réels en MP
             </p>
           </FadeIn>
         </div>
