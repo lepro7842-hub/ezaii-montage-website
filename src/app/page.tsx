@@ -51,8 +51,8 @@ const conditions = [
 ]
 
 const contactInfo = {
-  headline: 'Prêt à donner vie à tes vidéos ?',
-  subheadline: 'Discutons de ton projet et créons ensemble du contenu qui claque.',
+  headline: 'On monte ensemble ?',
+  subheadline: 'Envoie un message, je réponds vite.',
   email: 'hello@ezaii-montage.com',
   discordUrl: 'https://discord.com/users/eliott4943',
   discordLabel: 'eliott4943',

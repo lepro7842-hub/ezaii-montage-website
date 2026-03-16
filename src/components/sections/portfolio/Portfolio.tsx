@@ -123,8 +123,8 @@ export function Portfolio({ videos, shorts, onScrollToContact }: PortfolioProps)
 
               {/* Avatars: horizontal scroll on mobile, honeycomb on desktop */}
               <div className="w-full lg:w-[300px] flex-shrink-0 flex items-center">
-                {/* Mobile: horizontal scroll */}
-                <div className="flex lg:hidden gap-4 w-full overflow-x-auto pb-2 justify-start px-2" style={{ scrollbarWidth: 'none' }}>
+                {/* Mobile: wrap grid so all avatars are visible */}
+                <div className="flex lg:hidden gap-3 w-full flex-wrap justify-center px-2">
                   {gridClients.map((client, i) => (
                     <AvatarButton
                       key={client.name}

@@ -148,7 +148,7 @@ export function Hero({
     <div
       ref={containerRef}
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen w-full overflow-hidden bg-black"
+      className="relative min-h-[70vh] sm:min-h-screen w-full overflow-hidden bg-black"
     >
       {/* === CURTAIN BARS === */}
       <div

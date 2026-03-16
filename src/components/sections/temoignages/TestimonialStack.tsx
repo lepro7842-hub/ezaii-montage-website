@@ -81,7 +81,7 @@ export function TestimonialStack({ testimonials }: TestimonialStackProps) {
     <section className="py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-5xl mx-auto">
         <div className="mb-12 text-center">
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white mb-4" style={{ fontFamily: 'var(--font-heading)' }}>
+          <h2 className="text-3xl sm:text-5xl lg:text-7xl font-black tracking-tight text-white mb-4" style={{ fontFamily: 'var(--font-heading)' }}>
             <SplitTextReveal text="Ce qu'ils en pensent" />
           </h2>
           <FadeIn>
